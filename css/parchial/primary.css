@@ -1,0 +1,20 @@
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* css variable */
+:root{
+    --primaryColor: #4458dc;
+    --primaryColor2: #854fee;
+    --titleColor: #141313;
+    --textColor: #777777;
+    --borderColor: #201f1f17;
+    --gradientColor: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --shadowColor: 0px 10px 30px rgba(118,85,225,0.3);
+    --box-shadowColor: 0px 10px 30px rgba(57,56,61,0.205);
+
+/* font family variable */
+--lato:'Lato',sans-serif;
+}

@@ -1,8 +1,32 @@
 /* import font from font.css file */
 @import url(./font.css);
 
- /* body part css */
-*{
-    margin: 0;
-    padding: 0;
+/* css variable */
+@import url(./parchial/primary.css);
+
+ /* navbar css started */
+.header-area ,.main-manu .navbar .navbar-brand {
+    padding-bottom: 10px;
 }
+.header-area .main-manu .navbar{
+padding: .5rem 10rem;
+}
+.header-area .main-manu .navbar .navbar-nav .nav-item .nav-link{
+font-family: var(--lato);
+text-transform: uppercase;
+font-weight: 500;
+color: var(--titleColor);
+}
+.header-area .main-manu .navbar .navbar-nav .nav-item .active{
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header-area .main-manu .navbar .navbar-nav .nav-item .nav-link:hover{
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+ /* navbar css end */
